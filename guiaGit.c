@@ -40,6 +40,7 @@ printf("La sintaxis de cada uno se encuentra en el archivo de texto\n\n");
 printf("Ahora estoy trabajando en una rama diferente a la cual nombre RAMA2, para ello uso el comando git branch para ver en que rama estoy\n");
 printf("Para crear una nueva rama uso el comando git branch NOMBRE (en este caso use RAMA2)\n");
 printf("Ahora bien, para cambiarnos de rama usamos el comando git checkout RAMA2 y listo, verificamos con git branch para saber donde estamos\n");
+printf("Para ver los cambios entre las ramas usamos el codigo git diff ramaX ramaY\n");
 printf("Despues ya podemos modificar el programa que toda la modificacion quedara guardada en esa rama y al cambiarnos a la principal quedara como si nada\n\n");
 printf("No se puede cambiar de rama a menos que comites todos los archivos modificados de tu repositorio\n");
 printf("Luego de modificar, se tiene que comitar, despues subir con push como antes y listo para actualizar\n\n");
