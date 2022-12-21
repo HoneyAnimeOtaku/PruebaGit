@@ -1,2 +1,4 @@
 Mi token para Git llamado Prueba es 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
 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
+AHORA QUIERO GENERAR UNA RAMA CON UN CODIGO ANTIGUO DESDE EL REPOSITORIO REMOTO HASTA EL LOCAL 
+Para ello utilizo lo siguiente: me voy hacia el commit que quiero antiguo, copio su codigo y en mi terminal creo una nueva rama, con git branch RAMA3Antigua y pego el codigo desde voy a ramificar. Luego me paso a la RAMA3Antigua con git checkout RAMA3Antigua, despues para cancelar los git merge, recuerda que tenemos que ubicarnos en la rama donde lo queremos fucionar, en este caso nos ubicamos en la rama main y luego ahi aplicamos el git merge RAMA3Antigua, pero en caso de cancelar esta union de ramas podemos utilizar el codigo git merge --abort y listo se cancela la union en tu repositorio local. Recuerda bien seguir estos pasos antes de subirlo al repositorio remoto en GitHub
