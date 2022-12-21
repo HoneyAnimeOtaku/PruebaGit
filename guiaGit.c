@@ -40,7 +40,15 @@ printf("La sintaxis de cada uno se encuentra en el archivo de texto\n\n");
 printf("Ahora estoy trabajando en una rama diferente a la cual nombre RAMA2, para ello uso el comando git branch para ver en que rama estoy\n");
 printf("Para crear una nueva rama uso el comando git branch NOMBRE (en este caso use RAMA2)\n");
 printf("Ahora bien, para cambiarnos de rama usamos el comando git checkout RAMA2 y listo, verificamos con git branch para saber donde estamos\n");
-printf("Despues ya podemos modificar el programa que toda la modificacion quedara guardada en esa rama y al cambiarnos a la principal quedara como si nada\n");
+printf("Despues ya podemos modificar el programa que toda la modificacion quedara guardada en esa rama y al cambiarnos a la principal quedara como si nada\n\n");
+printf("No se puede cambiar de rama a menos que comites todos los archivos modificados de tu repositorio\n");
+printf("Luego de modificar, se tiene que comitar, despues subir con push como antes y listo para actualizar\n\n");
+
+printf("Para unificar las ramas secundarias con la principal main se hace lo siguiente:\n");
+printf("Primero nos ubicamos en la rama que nos queremos unificar, en este caso la main, luego\n");
+printf("ahora utilizamos el codigo git merge RAMA2 (osea la rama que queremos unir).Lo siguiente que hara es fusionar las dos ramas en el repositorio local. Luego tenemos que subir esos cambios al repositorio remoto GitHub \n");
+printf("Para subirlo utilizamos git push origin main (que es a la rama principal donde quiero unirlo)\n");
+
 
 return 0;
 }
